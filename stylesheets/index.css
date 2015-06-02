@@ -8,4 +8,6 @@ nav {
 
 .nav-tabs {
   background-color: #fff;
+  float: right;
 }
+

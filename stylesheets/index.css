@@ -19,6 +19,7 @@ nav {
   display: inline-block;
   background-color: #fff;
   width: 25%;
+  border: 1px solid gainsboro;
   margin: 1em;
 }
 
@@ -39,6 +40,7 @@ nav {
 
 .pencil {
   float: right;
+  background-color: #f4f4ee;
 }
 
 .bar-graph {

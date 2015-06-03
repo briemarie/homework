@@ -7,8 +7,8 @@ nav {
 }
 
 .nav-tabs {
-  background-color: #fff;
   float: right;
+  background-color: #fff;
 }
 
 .container-fluid {
@@ -16,17 +16,29 @@ nav {
 }
 
 #classes, #privates, #duets {
+  display: inline-block;
+  float: right;
   background-color: #fff;
   width: 25%;
-  float: right;
   margin: 1em;
-  display: inline-block;
 }
 
 #add {
   display: inline-block;
   float: left;
-  margin: 1em;
   text-align: center;
+  margin: 1em;
+}
+
+.stats {
+  display: inline-block;
+}
+
+.pencil {
+  float: right;
+}
+
+.bar-graph {
+  margin: auto;
 }
 

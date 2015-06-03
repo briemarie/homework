@@ -18,4 +18,10 @@ nav {
 #classes, #privates, #duets {
   background-color: #fff;
   width: 25%;
+  float: right;
+  margin: 1em;
+}
+
+#content {
+  display: inline-block;
 }

@@ -17,7 +17,6 @@ nav {
 
 #classes, #privates, #duets {
   display: inline-block;
-  float: right;
   background-color: #fff;
   width: 25%;
   margin: 1em;
@@ -25,7 +24,6 @@ nav {
 
 #add {
   display: inline-block;
-  float: left;
   text-align: center;
   margin: 1em;
 }

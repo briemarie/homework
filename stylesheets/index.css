@@ -31,7 +31,12 @@ nav {
 }
 
 .stats {
+  background-color: #f4f4ee;
+}
+
+.ind-stats {
   display: inline-block;
+  width:30%;
 }
 
 .pencil {
@@ -39,6 +44,6 @@ nav {
 }
 
 .bar-graph {
-  margin: auto;
+  text-align: center;
 }
 

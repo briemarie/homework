@@ -25,6 +25,7 @@ nav {
 
 #add {
   display: inline-block;
+  float: left;
   text-align: center;
   margin: 1em;
 }
@@ -35,7 +36,8 @@ nav {
 
 .ind-stats {
   display: inline-block;
-  width:30%;
+  width:33%;
+  text-align: center;
 }
 
 .pencil {

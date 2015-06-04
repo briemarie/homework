@@ -1,20 +1,37 @@
+/*general*/
+
 body {
   background-color: #f4f4ee;
   font-family: 'Noto Sans', sans-serif;
 }
 
+/*nav*/
+
 nav {
   background-color: #edf7f3;
+}
+
+.container-fluid {
+  margin-top: 1%;
 }
 
 .nav-tabs {
   float: right;
   background-color: #fff;
-  font-family: 'Noto Sans', sans-serif;
+  color: #006600;
 }
 
-.container-fluid {
-  margin-top: 1%;
+.subtabs {
+  display: table-row;
+}
+
+/*content*/
+
+#add {
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin: 1em;
 }
 
 #classes, #privates, #duets {
@@ -25,11 +42,13 @@ nav {
   margin: 1em;
 }
 
-#add {
-  display: inline-block;
-  float: left;
+.pencil {
+  float: right;
+  background-color: #f4f4ee;
+}
+
+.bar-graph {
   text-align: center;
-  margin: 1em;
 }
 
 .stats {
@@ -42,14 +61,7 @@ nav {
   margin-left: .55em;
 }
 
-.pencil {
-  float: right;
-  background-color: #f4f4ee;
-}
-
-.bar-graph {
-  text-align: center;
-}
+/*modal*/
 
 .modal-header, .modal-footer{
   background-color: #edf7f3;

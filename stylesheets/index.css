@@ -11,13 +11,10 @@ nav {
   background-color: #edf7f3;
 }
 
-.container-fluid {
-  margin-top: 1%;
-}
-
 .nav-tabs {
   float: right;
   background-image: -webkit-linear-gradient(top, #fff 0%, #edf7f3 100%);
+  margin-top: 3em;
 }
 
 .tab {

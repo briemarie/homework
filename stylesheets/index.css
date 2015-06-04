@@ -28,6 +28,7 @@ nav {
   font-size: smaller;
   font-weight: bold;
   color: #709582;
+  border-right: 1px solid;
 }
 
 .subtab-div {
@@ -41,10 +42,10 @@ nav {
 }
 
 .subtab {
-  color: black;
+  color: #808080;
   font-size: smaller;
   font-weight: bold;
-  margin-right: 1em;
+  margin-left: 2em;
 }
 
 /*content*/

@@ -28,7 +28,7 @@ nav {
   font-size: smaller;
   font-weight: bold;
   color: #709582;
-  border-right: 1px solid;
+  box-shadow: -2px 0px 3px -3px black;
 }
 
 .subtab-div {

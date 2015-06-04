@@ -17,7 +17,7 @@ nav {
 
 .nav-tabs {
   float: right;
-  background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #AFDBB5 200%);
+  background-image: -webkit-linear-gradient(top, #fff 0%, #edf7f3 100%);
 }
 
 .tabs {

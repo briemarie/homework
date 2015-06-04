@@ -42,10 +42,10 @@ nav {
 }
 
 .subtab {
-  color: #808080;
   font-size: smaller;
   font-weight: bold;
-  margin-left: 2em;
+  color: #808080;
+  margin-left: 3em;
 }
 
 /*content*/

@@ -17,12 +17,18 @@ nav {
 
 .nav-tabs {
   float: right;
-  background-color: #fff;
+  background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #AFDBB5 200%);
+}
+
+.tabs {
+  font-size: smaller;
+  font-weight: bold;
   color: #006600;
 }
 
 .subtabs {
-  display: table-row;
+  display: inline-flex;
+  list-style: none;
 }
 
 /*content*/

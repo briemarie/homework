@@ -26,6 +26,10 @@ nav {
   color: #006600;
 }
 
+.subtab-div {
+  background-color: #fff;
+}
+
 .subtabs {
   display: inline-flex;
   list-style: none;

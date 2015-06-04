@@ -27,7 +27,7 @@ nav {
 .tab {
   font-size: smaller;
   font-weight: bold;
-  color: #006600;
+  color: #709582;
 }
 
 .subtab-div {
@@ -35,9 +35,15 @@ nav {
   clear: both;
 }
 
-.subtabs {
+.subtabs-list {
   display: inline-flex;
   list-style: none;
+}
+
+.subtab {
+  color: black;
+  font-size: smaller;
+  font-weight: bold;
 }
 
 /*content*/

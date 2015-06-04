@@ -49,3 +49,11 @@ nav {
   text-align: center;
 }
 
+.modal-header .modal-footer{
+  background-color: #edf7f3;
+}
+
+.modal-body {
+  background-color: #f4f4ee;
+}
+

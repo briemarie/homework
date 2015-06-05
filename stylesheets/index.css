@@ -107,7 +107,8 @@ nav {
 .add-button {
   width: 6rem;
   height: 6rem;
-  background-color: #9bc58a;
+  background-image: -webkit-linear-gradient(top, #bcd89e 0%, #99cc99 100%);
+  border: 2px solid #9bc58a;
   border-radius: 5px;
 }
 

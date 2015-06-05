@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
 
   $('.tab').click(function(){
       $('.tab').removeClass('active');
@@ -13,6 +13,15 @@ $(document).ready(function() {
       else if (this.innerHTML.indexOf("Sign In") != -1){
         $('#sign-in').css('display', 'inline-flex');
       };
+      // Additional tabs would continue here
+  });
+
+  $('.more').click(function(){
+    $('.additional-stats').css('display', 'block');
+  });
+
+  $('.less').click(function(){
+    $('.additional-stats').css('display', 'none');
   });
 
 });

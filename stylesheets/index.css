@@ -84,8 +84,18 @@ nav {
 
 .ind-stats {
   display: inline-block;
-  width:30%;
+  width: 30%;
   margin-left: .55em;
+}
+
+.more {
+  font-size: smaller;
+  font-weight: bold;
+  color: #709582;
+}
+
+.additional-stats {
+  display: hidden;
 }
 
 /*modal*/

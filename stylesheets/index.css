@@ -24,6 +24,20 @@ b {
   margin-left: 5%;
 }
 
+table {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: smaller;
+  font-weight: bold;
+}
+
+th {
+  color: #808080;
+}
+
+tr {
+  color: black;
+}
+
 /*nav*/
 
 nav {
@@ -127,6 +141,11 @@ nav {
 
 .additional-stats {
   display: none;
+}
+
+.add-ind-stats {
+  width: 49%;
+
 }
 
 /*modal*/

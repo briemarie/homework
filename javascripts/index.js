@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
   // Tab functions
+
   $('.tab').click(function(){
       // Undoes changes from previous clicks
       $('.tab').removeClass('active');
@@ -20,8 +21,10 @@ $(document).ready(function(){
   });
 
   // Subtab functions
+
   $('.subtab-link').click(function(){
-    // Hides content from previous clicks
+    // Undoes changes from previous clicks
+    $('.subtab-link').css('color', '#808080')
     $('.content').css('display', 'none');
 
     // Changes active tab color
@@ -35,6 +38,8 @@ $(document).ready(function(){
   });
 
   // Button/link functions
+
+  // Changes pencil button color on hover
   $('.pencil').hover(
     function(){
       $(this).css('background-color', '#fff')
@@ -45,12 +50,15 @@ $(document).ready(function(){
     }
   );
 
+  // Shows and hides additional-stats
   $('.more').click(function(){
     $('.additional-stats').css('display', 'block');
+    $(this).css('visibility', 'hidden');
   });
 
   $('.less').click(function(){
     $('.additional-stats').css('display', 'none');
+    $('.more').css('visibility', 'visible');
   });
 
 });

@@ -42,15 +42,15 @@ nav {
   list-style: none;
 }
 
+.dashboard, .sign-in {
+  visibility: hidden;
+}
+
 .subtab-link {
   font-size: smaller;
   font-weight: bold;
   color: #808080;
   margin-left: 3em;
-}
-
-.subtab {
-  visibility: hidden;
 }
 
 /*content*/

@@ -1,7 +1,6 @@
 $(document).ready(function() {
 
   $('.tab').click(function(){
-      // Undoes previous clicks changes
       $('.tab').removeClass('active');
       $('.subtab').css('visibility', 'hidden');
 
@@ -9,9 +8,11 @@ $(document).ready(function() {
       $('.subtab-div').css('display', 'block');
 
       if (this.innerHTML.indexOf("Dashboard") != -1){
-        $('.subtab').css('visibility', 'visible');
+        $('.subtab.dashboard').css('visibility', 'visible');
       }
-
+      else if (this.innerHTML.indexOf("Sign In") != -1){
+        $('.subtab.sign-in').css('visibility', 'visible');
+      };
   });
 
 });

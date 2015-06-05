@@ -16,6 +16,10 @@ h6 {
   color: #b2b2b2;
 }
 
+b {
+  color: black;
+}
+
 .margin-shift {
   margin-left: 5%;
 }
@@ -29,7 +33,7 @@ nav {
 .nav-tabs {
   float: right;
   background-image: -webkit-linear-gradient(top, #fff 0%, #edf7f3 100%);
-  margin-top: 3em;
+  margin-top: 4.5rem;
 }
 
 .tab-link {
@@ -58,7 +62,7 @@ nav {
   font-weight: bold;
   text-decoration: none !important;
   color: #808080;
-  margin-left: 3em;
+  margin-left: 3.5rem;
 }
 
 /*content*/

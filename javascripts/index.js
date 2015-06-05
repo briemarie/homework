@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   // Subtab functions
   $('.subtab-link').click(function(){
-    $('.subtab-link').css('color', 'black')
+    $(this).css('color', 'black')
 
     if (this.innerHTML.indexOf("Business Overview") != -1){
         $('#business-overview').css('display', 'block');

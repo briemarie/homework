@@ -44,275 +44,287 @@
     </nav>
 
     <section class="content" id="business-overview">
-      <div id="add">
-        <button class="add-button" type="button" data-toggle="modal" data-target="#form"><img src="./assets/plus_icon.png"></button>
-        <h6>New Program</h6>
-        <!-- The add button pops out the following modal -->
-          <div class="modal fade" id="form" aria-hidden="true">
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h2 class="modal-title">New Program</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div id="add">
+              <button class="add-button" type="button" data-toggle="modal" data-target="#form"><img src="./assets/plus_icon.png"></button>
+              <h6>New Program</h6>
+              <!-- The add button pops out the following modal -->
+                <div class="modal fade" id="form" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h2 class="modal-title">New Program</h2>
+                      </div>
+                      <div class="modal-body">
+                        <form id="add-program">
+                          <h4>Program Type</h4>
+                          <select class="form-control">
+                            <option>Count Series</option>
+                            <option>Time Series</option>
+                            <option>Membership</option>
+                          </select>
+                          <br>
+                          <h4>Program Name</h4>
+                          <input type="text" placeholder="e.g. Heated Yoga">
+                          <br><br>
+                          <h4>Online Scheduling Available</h4>
+                          <select class="form-control">
+                            <option>Yes</option>
+                            <option>No</option>
+                          </select>
+                          <br>
+                          <h4>Default Capacity</h4>
+                          <input type="number" placeholder="e.g. 20" >
+                          <br><br>
+                          <h4>Tabs this program is on</h4>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value="">Classes</label>
+                            <label><input type="checkbox" value="">Appointments</label>
+                            <label><input type="checkbox" value="">Workshops</label>
+                            <label><input type="checkbox" value="">Outside</label>
+                            <label><input type="checkbox" value="">Inside</label>
+                            <label><input type="checkbox" value="">Gym</label>
+                          </div>
+                          <div class="modal-footer">
+                            <input type="submit" value="Add Program">
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-body">
-                  <form id="add-program">
-                    <h4>Program Type</h4>
-                    <select class="form-control">
-                      <option>Count Series</option>
-                      <option>Time Series</option>
-                      <option>Membership</option>
-                    </select>
-                    <br>
-                    <h4>Program Name</h4>
-                    <input type="text" placeholder="e.g. Heated Yoga">
-                    <br><br>
-                    <h4>Online Scheduling Available</h4>
-                    <select class="form-control">
-                      <option>Yes</option>
-                      <option>No</option>
-                    </select>
-                    <br>
-                    <h4>Default Capacity</h4>
-                    <input type="number" placeholder="e.g. 20" >
-                    <br><br>
-                    <h4>Tabs this program is on</h4>
-                    <div class="checkbox">
-                      <label><input type="checkbox" value="">Classes</label>
-                      <label><input type="checkbox" value="">Appointments</label>
-                      <label><input type="checkbox" value="">Workshops</label>
-                      <label><input type="checkbox" value="">Outside</label>
-                      <label><input type="checkbox" value="">Inside</label>
-                      <label><input type="checkbox" value="">Gym</label>
-                    </div>
-                    <div class="modal-footer">
-                      <input type="submit" value="Add Program">
-                    </div>
-                  </form>
+              <!--  -->
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class= "stats-box" id="classes">
+              <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
+              <h4 class="margin-shift">Yoga Classes</h4>
+              <h6 class="margin-shift">Sales By Month</h6>
+              <div class="bar-graph">
+                <img src="./assets/graph.png" alt="sales graph">
+              </div>
+              <div class="stats">
+                <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
+                <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
+                <div class="ind-stats">
+                  <h6>1-Year</h6>
+                  <img src="./assets/spark_line.png" alt="sales graph">
                 </div>
               </div>
+              <a class="more" href="#">More</a>
+                      <!-- Only appears when more is clicked -->
+                <div class="additional-stats">
+                  <div class="add-ind-stats table">
+                    <table class="price-sales">
+                      <colgroup>
+                        <col width="7rem" />
+                        <col width="3rem" />
+                      </colgroup>
+
+                      <thead>
+                        <tr>
+                          <th>Price Name</th>
+                          <th>Current</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>Monthly Unlimited</td>
+                          <td>$4,260</td>
+                        </tr>
+                        <tr>
+                          <td>Student 1 Month</td>
+                          <td>$1,750</td>
+                        </tr>
+                        <tr>
+                          <td>Single Visit</td>
+                          <td>$560</td>
+                        </tr>
+                        <tr>
+                          <td>10 Class Pass</td>
+                          <td>$475</td>
+                        </tr>
+                        <tr>
+                          <td>Student Single</td>
+                          <td>$445</td>
+                        </tr>
+                        <tr>
+                          <td>20 Class Pass</td>
+                          <td>$230</td>
+                        </tr>
+                        <tr>
+                          <td>5 Class Pass</td>
+                          <td>$520</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="add-ind-stats graph">
+                    <h6 class="one-year">1-Year</h6>
+                    <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
+                  </div>
+                  <a class="less" href="#">Less</a>
+                </div>
+              <!--  -->
             </div>
           </div>
-        <!--  -->
-      </div>
 
-      <div class= "stats-box" id="classes">
-        <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
-        <h4 class="margin-shift">Yoga Classes</h4>
-        <h6 class="margin-shift">Sales By Month</h6>
-        <div class="bar-graph">
-          <img src="./assets/graph.png" alt="sales graph">
+          <div class="col-md-3">
+            <div class= "stats-box" id="privates">
+              <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
+              <h4 class="margin-shift">Yoga Privates</h4>
+              <h6 class="margin-shift">Sales By Month</h6>
+              <div class="bar-graph">
+                <img src="./assets/graph.png" alt="sales graph">
+              </div>
+              <div class="stats">
+                <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
+                <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
+                <div class="ind-stats">
+                  <h6>1-Year</h6>
+                  <img src="./assets/spark_line.png" alt="sales graph">
+                </div>
+              </div>
+              <a class="more" href="#">More</a>
+              <!-- Only appears when more is clicked -->
+                <div class="additional-stats">
+                  <div class="add-ind-stats table">
+                    <table class="price-sales">
+                      <colgroup>
+                        <col width="7rem" />
+                        <col width="3rem" />
+                      </colgroup>
+
+                      <thead>
+                        <tr>
+                          <th>Price Name</th>
+                          <th>Current</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>Monthly Unlimited</td>
+                          <td>$4,260</td>
+                        </tr>
+                        <tr>
+                          <td>Student 1 Month</td>
+                          <td>$1,750</td>
+                        </tr>
+                        <tr>
+                          <td>Single Visit</td>
+                          <td>$560</td>
+                        </tr>
+                        <tr>
+                          <td>10 Class Pass</td>
+                          <td>$475</td>
+                        </tr>
+                        <tr>
+                          <td>Student Single</td>
+                          <td>$445</td>
+                        </tr>
+                        <tr>
+                          <td>20 Class Pass</td>
+                          <td>$230</td>
+                        </tr>
+                        <tr>
+                          <td>5 Class Pass</td>
+                          <td>$520</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="add-ind-stats graph">
+                    <h6 class="one-year">1-Year</h6>
+                    <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
+                  </div>
+                  <a class="less" href="#">Less</a>
+                </div>
+              <!--  -->
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class= "stats-box" id="duets">
+              <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
+              <h4 class="margin-shift">Yoga Duets</h4>
+              <h6 class="margin-shift">Sales By Month</h6>
+              <div class="bar-graph">
+                <img src="./assets/graph.png" alt="sales graph">
+              </div>
+              <div class="stats">
+                <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
+                <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
+                <div class="ind-stats">
+                  <h6>1-Year</h6>
+                  <img src="./assets/spark_line.png" alt="sales graph">
+                </div>
+              </div>
+              <a class="more" href="#">More</a>
+              <!-- Only appears when more is clicked -->
+                <div class="additional-stats">
+                  <div class="add-ind-stats table">
+                    <table class="price-sales">
+                      <colgroup>
+                        <col width="7rem" />
+                        <col width="3rem" />
+                      </colgroup>
+
+                      <thead>
+                        <tr>
+                          <th>Price Name</th>
+                          <th>Current</th>
+                        </tr>
+                      </thead>
+
+                      <tbody>
+                        <tr>
+                          <td>Monthly Unlimited</td>
+                          <td>$4,260</td>
+                        </tr>
+                        <tr>
+                          <td>Student 1 Month</td>
+                          <td>$1,750</td>
+                        </tr>
+                        <tr>
+                          <td>Single Visit</td>
+                          <td>$560</td>
+                        </tr>
+                        <tr>
+                          <td>10 Class Pass</td>
+                          <td>$475</td>
+                        </tr>
+                        <tr>
+                          <td>Student Single</td>
+                          <td>$445</td>
+                        </tr>
+                        <tr>
+                          <td>20 Class Pass</td>
+                          <td>$230</td>
+                        </tr>
+                        <tr>
+                          <td>5 Class Pass</td>
+                          <td>$520</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="add-ind-stats graph">
+                    <h6 class="one-year">1-Year</h6>
+                    <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
+                  </div>
+                  <a class="less" href="#">Less</a>
+                </div>
+              <!--  -->
+            </div>
+          </div>
         </div>
-        <div class="stats">
-          <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
-          <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
-          <div class="ind-stats">
-            <h6>1-Year</h6>
-            <img src="./assets/spark_line.png" alt="sales graph">
-          </div>
-        </div>
-        <a class="more" href="#">More</a>
-                <!-- Only appears when more is clicked -->
-          <div class="additional-stats">
-            <div class="add-ind-stats table">
-              <table class="price-sales">
-                <colgroup>
-                  <col width="7rem" />
-                  <col width="3rem" />
-                </colgroup>
-
-                <thead>
-                  <tr>
-                    <th>Price Name</th>
-                    <th>Current</th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <td>Monthly Unlimited</td>
-                    <td>$4,260</td>
-                  </tr>
-                  <tr>
-                    <td>Student 1 Month</td>
-                    <td>$1,750</td>
-                  </tr>
-                  <tr>
-                    <td>Single Visit</td>
-                    <td>$560</td>
-                  </tr>
-                  <tr>
-                    <td>10 Class Pass</td>
-                    <td>$475</td>
-                  </tr>
-                  <tr>
-                    <td>Student Single</td>
-                    <td>$445</td>
-                  </tr>
-                  <tr>
-                    <td>20 Class Pass</td>
-                    <td>$230</td>
-                  </tr>
-                  <tr>
-                    <td>5 Class Pass</td>
-                    <td>$520</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="add-ind-stats graph">
-              <h6 class="one-year">1-Year</h6>
-              <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
-            </div>
-            <a class="less" href="#">Less</a>
-          </div>
-        <!--  -->
-      </div>
-
-      <div class= "stats-box" id="privates">
-        <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
-        <h4 class="margin-shift">Yoga Privates</h4>
-        <h6 class="margin-shift">Sales By Month</h6>
-        <div class="bar-graph">
-          <img src="./assets/graph.png" alt="sales graph">
-        </div>
-        <div class="stats">
-          <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
-          <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
-          <div class="ind-stats">
-            <h6>1-Year</h6>
-            <img src="./assets/spark_line.png" alt="sales graph">
-          </div>
-        </div>
-        <a class="more" href="#">More</a>
-        <!-- Only appears when more is clicked -->
-          <div class="additional-stats">
-            <div class="add-ind-stats table">
-              <table class="price-sales">
-                <colgroup>
-                  <col width="7rem" />
-                  <col width="3rem" />
-                </colgroup>
-
-                <thead>
-                  <tr>
-                    <th>Price Name</th>
-                    <th>Current</th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <td>Monthly Unlimited</td>
-                    <td>$4,260</td>
-                  </tr>
-                  <tr>
-                    <td>Student 1 Month</td>
-                    <td>$1,750</td>
-                  </tr>
-                  <tr>
-                    <td>Single Visit</td>
-                    <td>$560</td>
-                  </tr>
-                  <tr>
-                    <td>10 Class Pass</td>
-                    <td>$475</td>
-                  </tr>
-                  <tr>
-                    <td>Student Single</td>
-                    <td>$445</td>
-                  </tr>
-                  <tr>
-                    <td>20 Class Pass</td>
-                    <td>$230</td>
-                  </tr>
-                  <tr>
-                    <td>5 Class Pass</td>
-                    <td>$520</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="add-ind-stats graph">
-              <h6 class="one-year">1-Year</h6>
-              <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
-            </div>
-            <a class="less" href="#">Less</a>
-          </div>
-        <!--  -->
-      </div>
-
-      <div class= "stats-box" id="duets">
-        <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
-        <h4 class="margin-shift">Yoga Duets</h4>
-        <h6 class="margin-shift">Sales By Month</h6>
-        <div class="bar-graph">
-          <img src="./assets/graph.png" alt="sales graph">
-        </div>
-        <div class="stats">
-          <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
-          <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
-          <div class="ind-stats">
-            <h6>1-Year</h6>
-            <img src="./assets/spark_line.png" alt="sales graph">
-          </div>
-        </div>
-        <a class="more" href="#">More</a>
-        <!-- Only appears when more is clicked -->
-          <div class="additional-stats">
-            <div class="add-ind-stats table">
-              <table class="price-sales">
-                <colgroup>
-                  <col width="7rem" />
-                  <col width="3rem" />
-                </colgroup>
-
-                <thead>
-                  <tr>
-                    <th>Price Name</th>
-                    <th>Current</th>
-                  </tr>
-                </thead>
-
-                <tbody>
-                  <tr>
-                    <td>Monthly Unlimited</td>
-                    <td>$4,260</td>
-                  </tr>
-                  <tr>
-                    <td>Student 1 Month</td>
-                    <td>$1,750</td>
-                  </tr>
-                  <tr>
-                    <td>Single Visit</td>
-                    <td>$560</td>
-                  </tr>
-                  <tr>
-                    <td>10 Class Pass</td>
-                    <td>$475</td>
-                  </tr>
-                  <tr>
-                    <td>Student Single</td>
-                    <td>$445</td>
-                  </tr>
-                  <tr>
-                    <td>20 Class Pass</td>
-                    <td>$230</td>
-                  </tr>
-                  <tr>
-                    <td>5 Class Pass</td>
-                    <td>$520</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="add-ind-stats graph">
-              <h6 class="one-year">1-Year</h6>
-              <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
-            </div>
-            <a class="less" href="#">Less</a>
-          </div>
-        <!--  -->
       </div>
     </section>
 

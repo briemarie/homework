@@ -1,4 +1,4 @@
-/*general*/
+/*general element extra specs*/
 
 html, body {
   width:100%;
@@ -12,6 +12,11 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 h6 {
   color: #b2b2b2;
 }
@@ -23,6 +28,22 @@ b {
 .margin-shift {
   margin-left: 5%;
 }
+
+/*bootstrap mod for responsive tabs*/
+
+@media (max-width: 480px) {
+  .nav-tabs > li {
+    float:none;
+  }
+}
+
+@media (max-width: 991px) {
+ .nav-tabs > li {
+    float:none;
+ }
+}
+
+/*table specs*/
 
 table {
   table-layout:fixed;
@@ -97,6 +118,8 @@ nav {
   margin: auto;
 }
 
+/*add button specs*/
+
 #add {
   display: inline-block;
   float: left;
@@ -112,6 +135,8 @@ nav {
   border-radius: 5px;
 }
 
+/*stats box specs*/
+
 .stats-box {
   display: inline-block;
   background-color: #fff;
@@ -124,7 +149,7 @@ nav {
   float: right;
   background-color: #f4f4ee;
   margin: 1rem;
-  border: none;
+  border: 1px solid #eeeeea;
   border-radius: 3px;
   padding: 0;
 

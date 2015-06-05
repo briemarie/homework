@@ -2,9 +2,11 @@ $(document).ready(function(){
 
   // Tab functions
   $('.tab').click(function(){
+      // Undoes changes from previous clicks
       $('.tab').removeClass('active');
       $('.subtab-list').css('display', 'none');
 
+      // Creates changes on click
       $(this).addClass('active');
       $('.subtab-div').css('display', 'block');
 
@@ -19,8 +21,13 @@ $(document).ready(function(){
 
   // Subtab functions
   $('.subtab-link').click(function(){
+    // Hides content from previous clicks
+    $('.content').css('display', 'none');
+
+    // Changes active tab color
     $(this).css('color', 'black')
 
+    // Displays content associated with subtab
     if (this.innerHTML.indexOf("Business Overview") != -1){
         $('#business-overview').css('display', 'block');
       }

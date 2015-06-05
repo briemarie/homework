@@ -40,9 +40,9 @@ nav {
 }
 
 .subtab-div {
-  background-color: #fff;
-  clear: both;
   display: none;
+  clear: both;
+  background-color: #fff;
 }
 
 .subtab-list {
@@ -56,9 +56,9 @@ nav {
 .subtab-link {
   font-size: smaller;
   font-weight: bold;
+  text-decoration: none !important;
   color: #808080;
   margin-left: 3em;
-  text-decoration: none !important;
 }
 
 /*content*/
@@ -77,23 +77,28 @@ nav {
 }
 
 .add-button {
-  background-color: #9bc58a;
-  border-radius: 5px;
   width: 6rem;
   height: 6rem;
+  background-color: #9bc58a;
+  border-radius: 5px;
 }
 
 #classes, #privates, #duets {
   display: inline-block;
   background-color: #fff;
-  width: 25%;
-  border: 1px solid gainsboro;
   margin: 1.5rem 3rem;
+  width: 20%;
+  border: 1px solid gainsboro;
 }
 
 .pencil {
   float: right;
   background-color: #f4f4ee;
+  margin: 1rem;
+  border: none;
+  border-radius: 3px;
+  padding: 0;
+
 }
 
 .bar-graph {

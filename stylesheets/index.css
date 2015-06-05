@@ -31,7 +31,7 @@ b {
 
 /*bootstrap mod for responsive tabs*/
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
   .nav-tabs > li {
     float:none;
   }
@@ -41,7 +41,7 @@ b {
  .nav-tabs > li {
     float:none;
  }
-}
+}*/
 
 /*table specs*/
 
@@ -51,6 +51,7 @@ table {
   font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
   font-weight: bold;
+  margin-left: 1rem;
 }
 
 th {
@@ -121,8 +122,6 @@ nav {
 /*add button specs*/
 
 #add {
-  display: inline-block;
-  float: left;
   text-align: center;
   margin: 1.5rem 4rem;
 }
@@ -138,10 +137,9 @@ nav {
 /*stats box specs*/
 
 .stats-box {
-  display: inline-block;
   background-color: #fff;
   margin: 1.5rem 3rem;
-  width: 20%;
+  width: 90%;
   border: 1px solid gainsboro;
 }
 
@@ -173,6 +171,7 @@ nav {
   font-size: smaller;
   font-weight: bold;
   color: #709582;
+  margin-left: 1rem;
 }
 
 .additional-stats {

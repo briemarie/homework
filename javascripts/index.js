@@ -8,10 +8,10 @@ $(document).ready(function() {
       $('.subtab-div').css('display', 'block');
 
       if (this.innerHTML.indexOf("Dashboard") != -1){
-        $('#dashboard').css('display', 'list item');
+        $('#dashboard').css('display', 'inline-flex');
       }
       else if (this.innerHTML.indexOf("Sign In") != -1){
-        $('#sign-in').css('display', 'list item');
+        $('#sign-in').css('display', 'inline-flex');
       };
   });
 

@@ -12,6 +12,14 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+h6 {
+  color: #b2b2b2;
+}
+
+.margin-shift {
+  margin-left: 5%;
+}
+
 /*nav*/
 
 nav {
@@ -57,20 +65,22 @@ nav {
 
 #business-overview {
   display: none;
+  width: 90%;
+  margin: auto;
 }
 
 #add {
   display: inline-block;
   float: left;
   text-align: center;
-  margin: 1em;
+  margin: 1.5rem 4rem;
 }
 
 .add-button {
   background-color: #9bc58a;
   border-radius: 5px;
-  width: 4em;
-  height: 4em;
+  width: 6rem;
+  height: 6rem;
 }
 
 #classes, #privates, #duets {
@@ -78,7 +88,7 @@ nav {
   background-color: #fff;
   width: 25%;
   border: 1px solid gainsboro;
-  margin: 1em;
+  margin: 1.5rem 3rem;
 }
 
 .pencil {
@@ -97,7 +107,7 @@ nav {
 .ind-stats {
   display: inline-block;
   width: 30%;
-  margin-left: .55em;
+  text-align: center;
 }
 
 .more, .less {

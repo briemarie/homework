@@ -42,11 +42,14 @@ nav {
   list-style: none;
 }
 
-.subtab {
+.subtab-link {
   font-size: smaller;
   font-weight: bold;
   color: #808080;
   margin-left: 3em;
+}
+
+.subtab {
   visibility: hidden;
 }
 

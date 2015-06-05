@@ -7,12 +7,10 @@ $(document).ready(function() {
 
       console.log(this)
 
-      var tabChecker = this.toString();
-      if (tabChecker.indexOf('dashboard') > -1) {
+      if (this.innerHTML.indexOf("Dashboard") != -1){
         $('.subtab').css('visibility', 'visible');
       }
 
-      console.log(tabChecker)
   });
 
 });

@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  // Tab functions
   $('.tab').click(function(){
       $('.tab').removeClass('active');
       $('.subtab-list').css('display', 'none');
@@ -16,6 +17,14 @@ $(document).ready(function(){
       // Additional tabs would continue here
   });
 
+  // Subtab functions
+  $('.subtab-link').click(function(){
+    if (this.innerHTML.indexOf("Business Overview") != -1){
+        $('#business-overview').css('display', 'block');
+      }
+  });
+
+  // Button/link functions
   $('.more').click(function(){
     $('.additional-stats').css('display', 'block');
   });

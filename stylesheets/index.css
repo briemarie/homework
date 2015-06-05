@@ -54,6 +54,10 @@ nav {
 
 /*content*/
 
+#business-overview {
+  display: none;
+}
+
 #add {
   display: inline-block;
   float: left;

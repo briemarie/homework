@@ -5,7 +5,7 @@ $(document).ready(function() {
       $(this).addClass('active');
       $('.subtab-div').css('display', 'block');
 
-      if (this.includes("dashboard")) {
+      if (this.indexOf("dashboard") > -1)) {
         $('.subtab').css('visibility', 'visible');
       }
   });

@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $('.tab').click(function(){
       $('.tab').removeClass('active');
-      $('.subtab').css('visibility', 'hidden');
+      $('.subtab-list').css('visibility', 'hidden');
 
       $(this).addClass('active');
       $('.subtab-div').css('display', 'block');

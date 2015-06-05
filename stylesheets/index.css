@@ -94,3 +94,13 @@ nav {
   background-color: #f4f4ee;
 }
 
+/*animations*/
+
+#active {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-bottom-color: transparent;
+}
+

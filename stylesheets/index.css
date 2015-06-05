@@ -146,7 +146,11 @@ nav {
 .add-ind-stats {
   display: inline-table;
   width: 49%;
+  text-align: center
+}
 
+.sales-graph {
+  height: 20rem;
 }
 
 /*modal*/

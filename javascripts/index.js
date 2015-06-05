@@ -19,7 +19,7 @@ $(document).ready(function(){
 
   // Subtab functions
   $('.subtab-link').click(function(){
-    $('.subtab-link').css('font-weight', 'bolder')
+    $('.subtab-link').css('color', 'black')
 
     if (this.innerHTML.indexOf("Business Overview") != -1){
         $('#business-overview').css('display', 'block');
@@ -28,7 +28,7 @@ $(document).ready(function(){
   });
 
   // Button/link functions
-  $('.pencil').onHover(function(){
+  $('.pencil').hover(function(){
     ('.pencil').css('background-color', '#fff')
   });
 

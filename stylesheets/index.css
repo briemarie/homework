@@ -88,14 +88,14 @@ nav {
   margin-left: .55em;
 }
 
-.more {
+.more, .less {
   font-size: smaller;
   font-weight: bold;
   color: #709582;
 }
 
 .additional-stats {
-  display: hidden;
+  display: none;
 }
 
 /*modal*/

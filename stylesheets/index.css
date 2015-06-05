@@ -66,6 +66,12 @@ nav {
   margin: 1em;
 }
 
+.add-button {
+  background-color: #9bc58a;
+  width: 5em;
+  height: 5em;
+}
+
 #classes, #privates, #duets {
   display: inline-block;
   background-color: #fff;

@@ -34,6 +34,7 @@ nav {
 .subtab-div {
   background-color: #fff;
   clear: both;
+  display: none;
 }
 
 .subtabs-list {

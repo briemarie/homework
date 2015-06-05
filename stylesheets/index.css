@@ -42,7 +42,7 @@ nav {
   list-style: none;
 }
 
-.dashboard, .sign-in {
+#dashboard, #sign-in {
   visibility: hidden;
 }
 

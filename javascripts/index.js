@@ -52,6 +52,7 @@ $(document).ready(function(){
 
   // Shows and hides additional-stats
   $('.more').click(function(){
+    console.log(this)
     $('.additional-stats').css('display', 'block');
     $(this).css('visibility', 'hidden');
   });

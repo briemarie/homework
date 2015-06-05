@@ -29,7 +29,7 @@ $(document).ready(function(){
 
   // Button/link functions
   $('.pencil').hover(function(){
-    ('.pencil').css('background-color', '#fff')
+    $(this).css('background-color', '#fff')
   });
 
   $('.more').click(function(){

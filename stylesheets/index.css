@@ -26,7 +26,7 @@ b {
 
 table {
   table-layout:fixed;
-  width: 10rem;
+  width: 14rem;
   font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
   font-weight: bold;
@@ -42,7 +42,10 @@ tr {
 
 td {
   overflow: hidden;
+  text-overflow: ellipsis;
   white-space: nowrap;
+  padding-top: .3rem;
+  padding-bottom: .3rem
 }
 
 /*nav*/
@@ -152,15 +155,14 @@ nav {
 
 .add-ind-stats {
   display: inline-table;
-  text-align: center
 }
 
 .table {
-  width: 59%
+  width: 63%
 }
 
 .graph {
-  width: 39%
+  width: 30%
 }
 
 .one-year {
@@ -169,7 +171,7 @@ nav {
 }
 
 .sales-graph {
-  height: 18rem;
+  height: 16rem;
 }
 
 /*modal*/

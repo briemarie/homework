@@ -17,7 +17,7 @@ h6 {
 }
 
 b {
-  color: black;
+  color: #808080;
 }
 
 .margin-shift {
@@ -31,11 +31,11 @@ table {
 }
 
 th {
-  color: #808080;
+  color: #b2b2b2;
 }
 
 tr {
-  color: black;
+  color: #808080;
 }
 
 /*nav*/
@@ -75,7 +75,7 @@ nav {
   font-size: smaller;
   font-weight: bold;
   text-decoration: none !important;
-  color: #808080;
+  color: #b2b2b2;
   margin-left: 3.5rem;
 }
 
@@ -144,6 +144,7 @@ nav {
 }
 
 .add-ind-stats {
+  display: inline-table;
   width: 49%;
 
 }

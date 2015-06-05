@@ -24,11 +24,11 @@ $(document).ready(function(){
 
   $('.subtab-link').click(function(){
     // Undoes changes from previous clicks
-    $('.subtab-link').css('color', '#808080')
+    $('.subtab-link').css('color', '#b2b2b2')
     $('.content').css('display', 'none');
 
     // Changes active tab color
-    $(this).css('color', 'black')
+    $(this).css('color', '#808080')
 
     // Displays content associated with subtab
     if (this.innerHTML.indexOf("Business Overview") != -1){

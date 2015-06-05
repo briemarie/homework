@@ -19,12 +19,19 @@ $(document).ready(function(){
 
   // Subtab functions
   $('.subtab-link').click(function(){
+    $('.subtab-link').css('font-weight', 'bolder')
+
     if (this.innerHTML.indexOf("Business Overview") != -1){
         $('#business-overview').css('display', 'block');
       }
+      // Additional subtabs would continue here
   });
 
   // Button/link functions
+  $('.pencil').onHover(function(){
+    ('.pencil').css('background-color', '#fff')
+  });
+
   $('.more').click(function(){
     $('.additional-stats').css('display', 'block');
   });

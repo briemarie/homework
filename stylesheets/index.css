@@ -43,7 +43,7 @@ nav {
 }
 
 #dashboard, #sign-in {
-  visibility: hidden;
+  display: none;
 }
 
 .subtab-link {

@@ -6,9 +6,11 @@ $(document).ready(function() {
       $('.subtab-div').css('display', 'block');
 
       var tabChecker = this.toString();
-      if (tabChecker.indexOf("dashboard") > -1) {
+      if (tabChecker.indexOf('dashboard') > -1) {
         $('.subtab').css('visibility', 'visible');
       }
+
+      console.log(tabChecker)
   });
 
 });

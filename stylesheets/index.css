@@ -26,6 +26,7 @@ b {
 
 table {
   table-layout:fixed;
+  width: 10rem;
   font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
   font-weight: bold;
@@ -151,12 +152,24 @@ nav {
 
 .add-ind-stats {
   display: inline-table;
-  width: 49%;
   text-align: center
 }
 
+.table {
+  width: 59%
+}
+
+.graph {
+  width: 39%
+}
+
+.one-year {
+  text-align: center;
+  margin-bottom: .5rem
+}
+
 .sales-graph {
-  height: 20rem;
+  height: 18rem;
 }
 
 /*modal*/

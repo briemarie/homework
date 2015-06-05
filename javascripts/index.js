@@ -1,7 +1,8 @@
 $(document).ready(function() {
 
-  $('.tab').click(function(element){
-      $(element).attr('id', 'active');
+  $('.tab').click(function(){
+      console.log("hello")
+      $(this).attr('id', 'active');
   });
 
 });

@@ -5,7 +5,8 @@ $(document).ready(function() {
       $(this).addClass('active');
       $('.subtab-div').css('display', 'block');
 
-      if (this.indexOf("dashboard") > -1) {
+      var tabChecker = this.toString();
+      if (tabChecker.indexOf("dashboard") > -1) {
         $('.subtab').css('visibility', 'visible');
       }
   });

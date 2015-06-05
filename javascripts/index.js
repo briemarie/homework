@@ -28,9 +28,15 @@ $(document).ready(function(){
   });
 
   // Button/link functions
-  $('.pencil').hover(function(){
-    $(this).css('background-color', '#fff')
-  });
+  $('.pencil').hover(
+    function(){
+      $(this).css('background-color', '#fff')
+    },
+
+    function(){
+      $(this).css('background-color', '#f4f4ee')
+    }
+  );
 
   $('.more').click(function(){
     $('.additional-stats').css('display', 'block');

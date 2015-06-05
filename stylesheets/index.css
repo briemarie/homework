@@ -47,6 +47,7 @@ nav {
   font-weight: bold;
   color: #808080;
   margin-left: 3em;
+  visibility: hidden;
 }
 
 /*content*/

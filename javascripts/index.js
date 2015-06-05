@@ -4,6 +4,9 @@ $(document).ready(function() {
       $('.tab').removeClass('active');
       $(this).addClass('active');
       $('.subtab-div').css('display', 'block')
+
+      console.log(this)
+
   });
 
 });

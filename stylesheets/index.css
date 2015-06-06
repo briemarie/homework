@@ -31,11 +31,11 @@ b {
 
 /*bootstrap mod for responsive tabs*/
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
  .nav-tabs > li {
     float:none;
  }
-}
+}*/
 
 /*table specs*/
 

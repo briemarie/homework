@@ -25,17 +25,25 @@ b {
   color: #808080;
 }
 
+a:hover {
+  color: black;
+}
+
 .margin-shift {
   margin-left: 5%;
 }
 
 /*bootstrap mod for responsive tabs*/
 
-/*@media (max-width: 991px) {
+@media (max-width: 991px) {
  .nav-tabs > li {
-    float:none;
+    float: none;
  }
-}*/
+}
+
+@media (max-width: 991px) {
+
+}
 
 /*table specs*/
 

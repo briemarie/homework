@@ -53,14 +53,15 @@ $(document).ready(function(){
   // Shows and hides additional-stats
   $('.more').click(function(){
     var id = $(this).data("id")
-    console.log(id);
 
-    $('.additional-stats[data-id='+ id +']').css('display', 'block');
+    $('.additional-stats[data-id='+id+']').css('display', 'block');
     $(this).css('visibility', 'hidden');
   });
 
   $('.less').click(function(){
-    $('.additional-stats').css('display', 'none');
+    var id = $(this).data("id")
+
+    $('.additional-stats[data-id='+id+']').css('display', 'none');
     $('.more').css('visibility', 'visible');
   });
 

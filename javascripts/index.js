@@ -10,13 +10,15 @@ $(document).ready(function(){
 
       // Creates changes on click
       $(this).addClass('active');
-      $('.subtab-div').css('display', 'block');
 
       if (this.innerHTML.indexOf("Dashboard") != -1){
         $('#dashboard').css('display', 'inline-flex');
       }
       else if (this.innerHTML.indexOf("Sign In") != -1){
         $('#sign-in').css('display', 'inline-flex');
+      }
+      else {
+        $('.subtab-div').css('display', 'block');
       };
       // Additional tabs would continue here
   });

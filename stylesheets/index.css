@@ -73,6 +73,8 @@ nav {
 .nav-tabs {
   float: right;
   background-image: -webkit-linear-gradient(top, #fff 0%, #edf7f3 100%);
+  background-image: -moz-linear-gradient(top, #fff 0%, #edf7f3 100%);
+  background-image: linear-gradient(top, #fff 0%, #edf7f3 100%);
   margin-top: 4.5rem;
 }
 
@@ -124,6 +126,8 @@ nav {
   width: 6rem;
   height: 6rem;
   background-image: -webkit-linear-gradient(top, #bcd89e 0%, #99cc99 100%);
+  background-image: -moz-linear-gradient(top, #bcd89e 0%, #99cc99 100%);
+  background-image: linear-gradient(top, #bcd89e 0%, #99cc99 100%);
   border: 2px solid #9bc58a;
   border-radius: 5px;
 }

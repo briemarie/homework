@@ -3,9 +3,10 @@ $(document).ready(function(){
   // Tab functions
 
   $('.tab').click(function(){
-      // Undoes changes from previous clicks
+      // Undoes changes from possible previous clicks
       $('.tab').removeClass('active');
       $('.subtab-list').css('display', 'none');
+      $('.content').css('display', 'none');
 
       // Creates changes on click
       $(this).addClass('active');
@@ -23,7 +24,7 @@ $(document).ready(function(){
   // Subtab functions
 
   $('.subtab-link').click(function(){
-    // Undoes changes from previous clicks
+    // Undoes changes from possible previous clicks
     $('.subtab-link').css('color', '#b2b2b2')
     $('.content').css('display', 'none');
 

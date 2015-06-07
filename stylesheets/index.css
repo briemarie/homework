@@ -38,9 +38,10 @@ tr {
 }
 
 hr {
+  width: 97%;
   color: #b2b2b2;
-  height: 97%;
-  width: 1px;
+  margin-left: 3rem;
+  border: 1px solid;
 }
 
 .margin-shift {
@@ -137,9 +138,9 @@ nav {
 /*stats box specs*/
 
 .stats-box {
+  width: 90%;
   background-color: #fff;
   margin: 1.5rem 3rem;
-  width: 90%;
   border: 1px solid gainsboro;
 }
 

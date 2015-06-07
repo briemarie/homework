@@ -5,18 +5,18 @@ $(document).ready(function(){
   $('.tab').click(function(){
       // Undoes changes from possible previous clicks
       $('.tab').removeClass('active');
-      $('.subtab-list').css('display', 'none');
-      $('.content').css('display', 'none');
+      $('.subtab-list').hide();
+      $('.content').hide();
 
       // Creates changes on click
       $(this).addClass('active');
-      $('.subtab-div').css('display', 'block');
+      $('.subtab-div').show();
 
       if (this.innerText.indexOf("Dashboard") != -1){
-        $('#dashboard').css('display', 'inline-flex');
+        $('#dashboard').show();
       }
       else if (this.innerText.indexOf("Sign In") != -1){
-        $('#sign-in').css('display', 'inline-flex');
+        $('#sign-in').show();
       };
       // Additional tabs would continue here
   });
@@ -26,14 +26,14 @@ $(document).ready(function(){
   $('.subtab-link').click(function(){
     // Undoes changes from possible previous clicks
     $('.subtab-link').css('color', '#b2b2b2')
-    $('.content').css('display', 'none');
+    $('.content').hide();
 
     // Changes active tab color
     $(this).css('color', '#808080')
 
     // Displays content associated with subtab
     if (this.innerText.indexOf("Business Overview") != -1){
-        $('#business-overview').css('display', 'block');
+        $('#business-overview').show();
       }
       // Additional subtabs would continue here
   });
@@ -55,14 +55,14 @@ $(document).ready(function(){
   $('.more').click(function(){
     var id = $(this).data("id")
 
-    $('.additional-stats[data-id='+id+']').css('display', 'block');
+    $('.additional-stats[data-id='+id+']').show();
     $(this).css('visibility', 'hidden');
   });
 
   $('.less').click(function(){
     var id = $(this).data("id")
 
-    $('.additional-stats[data-id='+id+']').css('display', 'none');
+    $('.additional-stats[data-id='+id+']').hide();
     $('.more').css('visibility', 'visible');
   });
 

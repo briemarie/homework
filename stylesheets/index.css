@@ -37,13 +37,6 @@ tr {
   color: #808080;
 }
 
-hr {
-  width: 97%;
-  color: #b2b2b2;
-  margin-left: 3rem;
-  border: 1px solid;
-}
-
 .margin-shift {
   margin-left: 5%;
 }
@@ -222,11 +215,14 @@ td {
 /*bottom of page table specs*/
 
 .monthly-table {
+  table-layout: fixed;
+  width: 97%;
   margin-left: 3rem;
 }
 
 .month-tbl-head {
   font-size: 1.25rem;
+  border-bottom: 1px solid #b2b2b2;
 }
 
 

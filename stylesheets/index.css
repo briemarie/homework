@@ -9,16 +9,12 @@ html, body {
 
 body {
   background-color: #f4f4ee;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-h6, th {
-  color: #b2b2b2;
 }
 
 b {
@@ -27,6 +23,14 @@ b {
 
 a:hover {
   color: black;
+}
+
+h6, th {
+  color: #b2b2b2;
+}
+
+table {
+  table-layout: fixed;
 }
 
 th, td {
@@ -59,6 +63,8 @@ tr {
 
 nav {
   background-color: #edf7f3;
+  font-size: smaller;
+  font-weight: bold;
 }
 
 .nav-tabs {
@@ -70,8 +76,6 @@ nav {
 }
 
 .tab-link {
-  font-size: smaller;
-  font-weight: bold;
   color: #709582;
   box-shadow: -2px 0px 3px -3px black;
 }
@@ -83,17 +87,12 @@ nav {
 }
 
 .subtab-list {
+  display: -webkit-inline-flex;
+  display: inline-flex;
   list-style: none;
 }
 
-#dashboard, #sign-in {
-  display: -webkit-inline-flex;
-  display: inline-flex;
-}
-
 .subtab-link {
-  font-size: smaller;
-  font-weight: bold;
   text-decoration: none !important;
   color: #b2b2b2;
   margin-left: 3.5rem;
@@ -189,9 +188,7 @@ nav {
 }
 
 .price-sales {
-  table-layout: fixed;
   width: 14rem;
-  font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
   font-weight: bold;
   margin-left: 1rem;
@@ -218,7 +215,6 @@ nav {
 /*bottom of page table specs*/
 
 .monthly-table {
-  table-layout: fixed;
   width: 97%;
   margin-left: 3rem;
 }

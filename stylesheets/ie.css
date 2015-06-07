@@ -51,16 +51,12 @@ html, body {
 
 body {
   background-color: #f4f4ee;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Noto Sans', sans-serif !important;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-h6, th {
-  color: #b2b2b2;
 }
 
 b {
@@ -74,6 +70,14 @@ a:focus, a:visited {
 
 a:hover, a:active {
   color: black;
+}
+
+h6, th {
+  color: #b2b2b2;
+}
+
+table {
+  table-layout: fixed;
 }
 
 th, td {
@@ -95,6 +99,8 @@ tr {
 
 nav {
   background-color: #edf7f3;
+  font-size: smaller;
+  font-weight: bold;
 }
 
 .nav-tabs {
@@ -102,8 +108,6 @@ nav {
 }
 
 .tab-link {
-  font-size: smaller;
-  font-weight: bold;
   color: #709582;
   margin-left: 2em;
 }
@@ -115,16 +119,11 @@ nav {
 }
 
 .subtab-list {
+  display: -ms-inline-flexbox;
   list-style: none;
 }
 
-#dashboard, #sign-in {
-  display: -ms-inline-flexbox;
-}
-
 .subtab-link {
-  font-size: smaller;
-  font-weight: bold;
   text-decoration: none !important;
   color: #b2b2b2;
   margin-left: 3.5em;
@@ -132,7 +131,7 @@ nav {
 
 /*content*/
 
-#business-overview {
+.content {
   display: block;
   width: 90%;
   margin: auto;
@@ -217,9 +216,7 @@ nav {
 }
 
 .price-sales {
-  table-layout:fixed;
   width: 120px; /*must use px here for word-wrap to work*/
-  font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
   font-weight: bold;
   margin-left: 1em;
@@ -242,7 +239,6 @@ nav {
 /*bottom of page table specs*/
 
 .monthly-table {
-  table-layout: fixed;
   width: 97%;
   margin-left: 3em;
 }

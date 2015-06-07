@@ -39,7 +39,8 @@ tr {
 
 hr {
   color: #b2b2b2;
-  width: 97%;
+  height: 97%;
+  width: 1px;
 }
 
 .margin-shift {
@@ -225,7 +226,6 @@ td {
 
 .month-tbl-head {
   font-size: 1.25rem;
-  border-bottom: 1px solid #b2b2b2
 }
 
 

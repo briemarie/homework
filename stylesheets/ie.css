@@ -70,7 +70,6 @@ b {
 a:focus, a:visited {
   color: #709582;
   border: none;
-  outline: none;
 }
 
 a:hover, a:active {

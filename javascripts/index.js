@@ -4,9 +4,9 @@ $(document).ready(function(){
 
   $('.tab').click(function(){
       // Undoes changes from possible previous clicks
-      // $('.tab').removeClass('active');
-      // $('.subtab-list').css('display', 'none');
-      // $('.content').css('display', 'none');
+      $('.tab').removeClass('active');
+      $('.subtab-list').css('display', 'none');
+      $('.content').css('display', 'none');
 
       // Creates changes on click
       $(this).addClass('active');

@@ -118,7 +118,6 @@ h6, th {
 table {
   table-layout: fixed;
   font-size: smaller;
-  font-weight: bold;
 }
 
 tr {
@@ -216,7 +215,6 @@ nav {
   background-color: #f4f4ee;
   margin: 1em;
   border: 1px solid #eeeeea;
-  border-radius: 3px;
   padding: 0;
 
 }
@@ -283,7 +281,6 @@ nav {
 }
 
 .month-tbl-head {
-  font-size: 1.25em;
   border-bottom: 1px solid #b2b2b2;
 }
 

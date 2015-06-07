@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.0.0"
 
 # PostgreSQL driver
 gem 'pg'
@@ -14,11 +15,11 @@ gem 'thin'
 gem 'activesupport'
 gem 'activerecord'
 
-#face recognition
+# For api calls
+gem 'nokogiri', '~> 1.6.6.2'
 
-
+# Needed for development
 gem 'rake'
-
 gem 'shotgun'
 
 group :test do

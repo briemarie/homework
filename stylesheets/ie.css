@@ -1,3 +1,45 @@
+/*Bootstrap styling taken out of @media for ie support*/
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  float: left;
+}
+.col-md-12 {
+  width: 100%;
+}
+.col-md-11 {
+  width: 91.66666667%;
+}
+.col-md-10 {
+  width: 83.33333333%;
+}
+.col-md-9 {
+  width: 75%;
+}
+.col-md-8 {
+  width: 66.66666667%;
+}
+.col-md-7 {
+  width: 58.33333333%;
+}
+.col-md-6 {
+  width: 50%;
+}
+.col-md-5 {
+  width: 41.66666667%;
+}
+.col-md-4 {
+  width: 33.33333333%;
+}
+.col-md-3 {
+  width: 25%;
+}
+.col-md-2 {
+  width: 16.66666667%;
+}
+.col-md-1 {
+  width: 8.33333333%;
+}
+
 /*general element extra specs*/
 
 html, body {
@@ -33,23 +75,15 @@ a:hover {
   margin-left: 5%;
 }
 
-/*bootstrap mod for responsive tabs*/
-
-@media (max-width: 991px) {
- .nav-tabs > li {
-    float: none;
- }
-}
-
 /*table specs*/
 
 table {
   table-layout:fixed;
-  width: 14rem;
+  width: 14em;
   font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
   font-weight: bold;
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 
 th {
@@ -64,8 +98,8 @@ td {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  padding-top: .3rem;
-  padding-bottom: .3rem
+  padding-top: .3em;
+  padding-bottom: .3em
 }
 
 /*nav*/
@@ -76,10 +110,8 @@ nav {
 
 .nav-tabs {
   float: right;
-  background-image: -webkit-linear-gradient(top, #fff 0%, #edf7f3 100%);
-  background-image: -moz-linear-gradient(top, #fff 0%, #edf7f3 100%);
-  background-image: linear-gradient(top, #fff 0%, #edf7f3 100%);
-  margin-top: 4.5rem;
+  background-image: -ms-linear-gradient(top, #fff 0%, #edf7f3 100%);
+  margin-top: 4.5em;
 }
 
 .tab-link {
@@ -100,8 +132,7 @@ nav {
 }
 
 #dashboard, #sign-in {
-  display: -webkit-inline-flex;
-  display: inline-flex;
+  display: -ms-inline-flexbox;
 }
 
 .subtab-link {
@@ -109,7 +140,7 @@ nav {
   font-weight: bold;
   text-decoration: none !important;
   color: #b2b2b2;
-  margin-left: 3.5rem;
+  margin-left: 3.5em;
 }
 
 /*content*/
@@ -124,15 +155,13 @@ nav {
 
 #add {
   text-align: center;
-  margin: 1.5rem 4rem;
+  margin: 1.5em 4em;
 }
 
 .add-button {
-  width: 6rem;
-  height: 6rem;
-  background-image: -webkit-linear-gradient(top, #bcd89e 0%, #99cc99 100%);
-  background-image: -moz-linear-gradient(top, #bcd89e 0%, #99cc99 100%);
-  background-image: linear-gradient(top, #bcd89e 0%, #99cc99 100%);
+  width: 6em;
+  height: 6em;
+  background-image: -ms-linear-gradient(top, #bcd89e 0%, #99cc99 100%);
   border: 2px solid #9bc58a;
   border-radius: 5px;
 }
@@ -141,7 +170,7 @@ nav {
 
 .stats-box {
   background-color: #fff;
-  margin: 1.5rem 3rem;
+  margin: 1.5em 3em;
   width: 90%;
   border: 1px solid gainsboro;
 }
@@ -149,7 +178,7 @@ nav {
 .pencil {
   float: right;
   background-color: #f4f4ee;
-  margin: 1rem;
+  margin: 1em;
   border: 1px solid #eeeeea;
   border-radius: 3px;
   padding: 0;
@@ -174,7 +203,7 @@ nav {
   font-size: smaller;
   font-weight: bold;
   color: #709582;
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 
 .additional-stats {
@@ -195,11 +224,11 @@ nav {
 
 .one-year {
   text-align: center;
-  margin-bottom: .5rem
+  margin-bottom: .5em
 }
 
 .sales-graph {
-  height: 16rem;
+  height: 16em;
 }
 
 /*modal*/
@@ -211,7 +240,3 @@ nav {
 .modal-body {
   background-color: #f4f4ee;
 }
-
-
-
-

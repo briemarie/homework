@@ -76,21 +76,6 @@ a:hover, a:active {
   color: black;
 }
 
-.margin-shift {
-  margin-left: 5%;
-}
-
-/*table specs*/
-
-table {
-  table-layout:fixed;
-  width: 120px; /*must use px here for word-wrap to work*/
-  font-family: 'Noto Sans', sans-serif;
-  font-size: smaller;
-  font-weight: bold;
-  margin-left: 1em;
-}
-
 th {
   color: #b2b2b2;
 }
@@ -99,13 +84,10 @@ tr {
   color: #808080;
 }
 
-td {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding-top: .5em;
-  padding-bottom: .6em;
+.margin-shift {
+  margin-left: 5%;
 }
+
 
 /*nav*/
 
@@ -168,6 +150,16 @@ nav {
   border: 2px solid #9bc58a;
 }
 
+/*modal*/
+
+.modal-header, .modal-footer{
+  background-color: #edf7f3;
+}
+
+.modal-body {
+  background-color: #f4f4ee;
+}
+
 /*stats box specs*/
 
 .stats-box {
@@ -201,6 +193,8 @@ nav {
   text-align: center;
 }
 
+/*additional stats drop down specs*/
+
 .more, .less {
   font-size: smaller;
   font-weight: bold;
@@ -216,8 +210,25 @@ nav {
   display: inline-table;
 }
 
-.table {
+.table-side {
   width: 120px;
+}
+
+.price-sales {
+  table-layout:fixed;
+  width: 120px; /*must use px here for word-wrap to work*/
+  font-family: 'Noto Sans', sans-serif;
+  font-size: smaller;
+  font-weight: bold;
+  margin-left: 1em;
+}
+
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: .5em;
+  padding-bottom: .6em;
 }
 
 .one-year {
@@ -229,12 +240,12 @@ nav {
   height: 16em;
 }
 
-/*modal*/
+/*bottom of page table specs*/
 
-.modal-header, .modal-footer{
-  background-color: #edf7f3;
+.monthly-table {
+  margin-left: 3rem;
 }
 
-.modal-body {
-  background-color: #f4f4ee;
+.month-tbl-head {
+  font-size: 1.25rem;
 }

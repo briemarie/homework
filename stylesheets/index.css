@@ -29,6 +29,14 @@ a:hover {
   color: black;
 }
 
+th {
+  color: #b2b2b2;
+}
+
+tr {
+  color: #808080;
+}
+
 .margin-shift {
   margin-left: 5%;
 }
@@ -110,6 +118,16 @@ nav {
   border-radius: 5px;
 }
 
+/*modal*/
+
+.modal-header, .modal-footer{
+  background-color: #edf7f3;
+}
+
+.modal-body {
+  background-color: #f4f4ee;
+}
+
 /*stats box specs*/
 
 .stats-box {
@@ -160,7 +178,7 @@ nav {
   display: inline-table;
 }
 
-.table {
+.table-side {
   width: 63%;
 }
 
@@ -173,14 +191,6 @@ nav {
   margin-left: 1rem;
 }
 
-th {
-  color: #b2b2b2;
-}
-
-tr {
-  color: #808080;
-}
-
 td {
   overflow: hidden;
   text-overflow: ellipsis;
@@ -189,7 +199,7 @@ td {
   padding-bottom: .3rem;
 }
 
-.graph {
+.graph-side {
   width: 30%;
 }
 
@@ -202,15 +212,19 @@ td {
   height: 16rem;
 }
 
-/*modal*/
+/*bottom of page table specs*/
 
-.modal-header, .modal-footer{
-  background-color: #edf7f3;
+.monthly-table {
+  margin-left: 3rem;
+  width: 100%;
 }
 
-.modal-body {
-  background-color: #f4f4ee;
+.month-tbl-head {
+  width: 100%;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #b2b2b2
 }
+
 
 
 

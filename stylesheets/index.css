@@ -17,7 +17,7 @@ img {
   height: auto;
 }
 
-h6 {
+h6, th {
   color: #b2b2b2;
 }
 
@@ -29,15 +29,18 @@ a:hover {
   color: black;
 }
 
-th {
+th, td {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  color: #b2b2b2;
 }
 
 tr {
   color: #808080;
+}
+
+.row {
+  margin-bottom: 2rem;
 }
 
 .margin-shift {
@@ -186,7 +189,7 @@ nav {
 }
 
 .price-sales {
-  table-layout:fixed;
+  table-layout: fixed;
   width: 14rem;
   font-family: 'Noto Sans', sans-serif;
   font-size: smaller;
@@ -195,9 +198,6 @@ nav {
 }
 
 .td-ps {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
   padding-top: .4rem;
   padding-bottom: .3rem;
 }
@@ -226,12 +226,6 @@ nav {
 .month-tbl-head {
   font-size: 1.25rem;
   border-bottom: 1px solid #b2b2b2;
-}
-
-.td-mo {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 

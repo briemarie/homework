@@ -59,7 +59,7 @@ img {
   height: auto;
 }
 
-h6 {
+h6, th {
   color: #b2b2b2;
 }
 
@@ -76,19 +76,14 @@ a:hover, a:active {
   color: black;
 }
 
-th {
-  color: #b2b2b2;
+th, td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 tr {
   color: #808080;
-}
-
-hr {
-  width: 97%;
-  color: #b2b2b2;
-  margin-left: 3rem;
-  border: 1px solid;
 }
 
 .margin-shift {
@@ -230,10 +225,7 @@ nav {
   margin-left: 1em;
 }
 
-td {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.td-ps {
   padding-top: .5em;
   padding-bottom: .6em;
 }
@@ -250,9 +242,12 @@ td {
 /*bottom of page table specs*/
 
 .monthly-table {
+  table-layout: fixed;
+  width: 97%;
   margin-left: 3em;
 }
 
 .month-tbl-head {
   font-size: 1.25em;
+  border-bottom: 1px solid #b2b2b2;
 }

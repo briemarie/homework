@@ -67,6 +67,10 @@ b {
   color: #808080;
 }
 
+a:visted {
+  color: #709582;
+}
+
 a:hover, a:active {
   color: black;
 }
@@ -112,7 +116,7 @@ nav {
   float: right;
 }
 
-.tab-link, a:visted,  {
+.tab-link {
   font-size: smaller;
   font-weight: bold;
   color: #709582;

@@ -41,33 +41,6 @@ a:hover {
  }
 }
 
-/*table specs*/
-
-table {
-  table-layout:fixed;
-  width: 14rem;
-  font-family: 'Noto Sans', sans-serif;
-  font-size: smaller;
-  font-weight: bold;
-  margin-left: 1rem;
-}
-
-th {
-  color: #b2b2b2;
-}
-
-tr {
-  color: #808080;
-}
-
-td {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  padding-top: .4rem;
-  padding-bottom: .3rem;
-}
-
 /*nav*/
 
 nav {
@@ -170,6 +143,8 @@ nav {
   text-align: center;
 }
 
+/*additional stats drop down specs*/
+
 .more, .less {
   font-size: smaller;
   font-weight: bold;
@@ -187,6 +162,31 @@ nav {
 
 .table {
   width: 63%;
+}
+
+.price-sales {
+  table-layout:fixed;
+  width: 14rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: smaller;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+th {
+  color: #b2b2b2;
+}
+
+tr {
+  color: #808080;
+}
+
+td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-top: .4rem;
+  padding-bottom: .3rem;
 }
 
 .graph {

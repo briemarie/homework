@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+  $('.subtab-div').hide();
+  $('.content').hide();
+  $('.additional-stats').hide();
+
   // Tab functions
 
   $('.tab').click(function(){

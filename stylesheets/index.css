@@ -90,7 +90,7 @@ nav {
 }
 
 .subtab-div {
-  /*display: none;*/
+  display: block;
   clear: both;
   background-color: #fff;
 }
@@ -100,7 +100,7 @@ nav {
 }
 
 #dashboard, #sign-in {
-  /*display: none;*/
+  display: inline-flex;
 }
 
 .subtab-link {
@@ -114,7 +114,7 @@ nav {
 /*content*/
 
 #business-overview {
-  /*display: none;*/
+  display: block;
   width: 90%;
   margin: auto;
 }
@@ -177,7 +177,7 @@ nav {
 }
 
 .additional-stats {
-  /*display: none;*/
+  display: block;
 }
 
 .add-ind-stats {

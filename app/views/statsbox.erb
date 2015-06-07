@@ -1,0 +1,95 @@
+<div class="col-md-3">
+  <div class= "stats-box" id="classes">
+    <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
+    <h4 class="margin-shift">Yoga Classes</h4>
+    <h6 class="margin-shift">Sales By Month</h6>
+    <div class="bar-graph">
+      <img src="./assets/graph.png" alt="sales graph">
+    </div>
+    <div class="stats">
+      <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
+      <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
+      <div class="ind-stats">
+        <h6>1-Year</h6>
+        <img src="./assets/spark_line.png" alt="sales graph">
+      </div>
+    </div>
+    <a class="more" data-id="1" href="#">More</a>
+      <!-- Only appears when more is clicked -->
+        <div class="additional-stats" data-id="1">
+          <div class="add-ind-stats table-side">
+            <%= erb(:sales, :layout => false) %>
+          </div>
+          <div class="add-ind-stats graph-side">
+            <h6 class="one-year">1-Year</h6>
+            <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
+          </div>
+          <a class="less" href="#" data-id="1">Less</a>
+        </div>
+      <!--  -->
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class= "stats-box" id="privates">
+    <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
+    <h4 class="margin-shift">Yoga Privates</h4>
+    <h6 class="margin-shift">Sales By Month</h6>
+    <div class="bar-graph">
+      <img src="./assets/graph.png" alt="sales graph">
+    </div>
+    <div class="stats">
+      <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
+      <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
+      <div class="ind-stats">
+        <h6>1-Year</h6>
+        <img src="./assets/spark_line.png" alt="sales graph">
+      </div>
+    </div>
+    <a class="more" data-id="2" href="#">More</a>
+    <!-- Only appears when more is clicked -->
+      <div class="additional-stats" data-id="2">
+        <div class="add-ind-stats table-side">
+          <%= erb(:sales, :layout => false) %>
+        </div>
+        <div class="add-ind-stats graph-side">
+          <h6 class="one-year">1-Year</h6>
+          <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
+        </div>
+        <a class="less" data-id="2" href="#">Less</a>
+      </div>
+    <!--  -->
+  </div>
+</div>
+
+<div class="col-md-3">
+  <div class= "stats-box" id="duets">
+    <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
+    <h4 class="margin-shift">Yoga Duets</h4>
+    <h6 class="margin-shift">Sales By Month</h6>
+    <div class="bar-graph">
+      <img src="./assets/graph.png" alt="sales graph">
+    </div>
+    <div class="stats">
+      <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
+      <div class="ind-stats"><h6>Current<br><b>$23,483</b></h6></div>
+      <div class="ind-stats">
+        <h6>1-Year</h6>
+        <img src="./assets/spark_line.png" alt="sales graph">
+      </div>
+    </div>
+    <a class="more" data-id="3" href="#">More</a>
+    <!-- Only appears when more is clicked -->
+      <div class="additional-stats" data-id="3">
+        <div class="add-ind-stats table-side">
+          <%= erb(:sales, :layout => false) %>
+        </div>
+        <div class="add-ind-stats graph-side">
+          <h6 class="one-year">1-Year</h6>
+          <img class="sales-graph" src="./assets/spark_lines.png" alt="sales graph">
+        </div>
+        <a class="less" data-id="3" href="#">Less</a>
+      </div>
+    <!--  -->
+  </div>
+</div>

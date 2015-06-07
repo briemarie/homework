@@ -21,6 +21,11 @@ b {
   color: #808080;
 }
 
+a:focus, a:visited {
+  color: #709582;
+  outline: none;
+}
+
 a:hover {
   color: black;
 }

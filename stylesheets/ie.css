@@ -80,14 +80,14 @@ table {
   table-layout: fixed;
 }
 
-th, td {
+tr {
+  color: #808080;
+}
+
+td {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-tr {
-  color: #808080;
 }
 
 .margin-shift {
@@ -246,4 +246,10 @@ nav {
 .month-tbl-head {
   font-size: 1.25em;
   border-bottom: 1px solid #b2b2b2;
+}
+
+.th-mo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }

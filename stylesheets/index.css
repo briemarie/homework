@@ -30,6 +30,9 @@ a:hover {
 }
 
 th {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
   color: #b2b2b2;
 }
 
@@ -95,7 +98,7 @@ nav {
 
 /*content*/
 
-#business-overview {
+.content {
   display: block;
   width: 90%;
   margin: auto;
@@ -191,7 +194,7 @@ nav {
   margin-left: 1rem;
 }
 
-td {
+.td-ps {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -223,6 +226,12 @@ td {
 .month-tbl-head {
   font-size: 1.25rem;
   border-bottom: 1px solid #b2b2b2;
+}
+
+.td-mo {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 

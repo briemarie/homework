@@ -10,6 +10,7 @@ $(document).ready(function(){
       // Undoes changes from possible previous clicks
       $('.tab').removeClass('active');
       $('.subtab-list').hide();
+      $('.subtab-link').css('color', '#b2b2b2')
       $('.content').hide();
 
       // Creates changes on click

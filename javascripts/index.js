@@ -12,10 +12,10 @@ $(document).ready(function(){
       $(this).addClass('active');
       $('.subtab-div').css('display', 'block');
 
-      if (this.innerHTML.indexOf("Dashboard") != -1){
+      if (this.innerText.indexOf("Dashboard") != -1){
         $('#dashboard').css('display', 'inline-flex');
       }
-      else if (this.innerHTML.indexOf("Sign In") != -1){
+      else if (this.innerText.indexOf("Sign In") != -1){
         $('#sign-in').css('display', 'inline-flex');
       };
       // Additional tabs would continue here
@@ -32,7 +32,7 @@ $(document).ready(function(){
     $(this).css('color', '#808080')
 
     // Displays content associated with subtab
-    if (this.innerHTML.indexOf("Business Overview") != -1){
+    if (this.innerText.indexOf("Business Overview") != -1){
         $('#business-overview').css('display', 'block');
       }
       // Additional subtabs would continue here

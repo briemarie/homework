@@ -78,6 +78,8 @@ h6, th {
 
 table {
   table-layout: fixed;
+  font-size: smaller;
+  font-weight: bold;
 }
 
 tr {
@@ -217,8 +219,6 @@ nav {
 
 .price-sales {
   width: 120px; /*must use px here for word-wrap to work*/
-  font-size: smaller;
-  font-weight: bold;
   margin-left: 1em;
 }
 

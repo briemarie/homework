@@ -31,6 +31,8 @@ h6, th {
 
 table {
   table-layout: fixed;
+  font-size: smaller;
+  font-weight: bold;
 }
 
 tr {
@@ -189,8 +191,6 @@ nav {
 
 .price-sales {
   width: 14rem;
-  font-size: smaller;
-  font-weight: bold;
   margin-left: 1rem;
 }
 

@@ -57,7 +57,7 @@ $(document).ready(function(){
   );
 
   // Shows and hides additional-stats
-  $('.more').click(function(){
+  $('.more-1').click(function(){
     var id = $(this).data("id")
 
     $('.additional-stats[data-id='+id+']').show();
@@ -68,7 +68,7 @@ $(document).ready(function(){
     var id = $(this).data("id")
 
     $('.additional-stats[data-id='+id+']').hide();
-    $('.more').css('visibility', 'visible');
+    $('.more-1').css('visibility', 'visible');
   });
 
 });

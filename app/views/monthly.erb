@@ -12,20 +12,17 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Open Practice</td>
-      <td>$572.00</td>
-      <td>276 Visits</td>
-    </tr>
-    <tr>
-      <td class="td-ps"><a class="more" href="#">More</a></td>
-    <tr>
-      <td>Yoga Videos</td>
-      <td>$391.32</td>
-      <td>82 Views</td>
-    </tr>
-    <tr>
-      <td><a class="more" href="#">More</a></td>
-    <tr>
+    <%@programs.each do |program| %>
+      <% if program["ProgramID"] >= 103 %>
+        <tr>
+          <td><%= program["Name"]%></td>
+          <td>$<%= program["TotalMonthlySales"]%></td>
+          <td><%= program["MonthlyAttendance"]%> Visits</td>
+        </tr>
+        <tr>
+          <td><a class="more-2" href="#" data-id="<%=program["ProgramID"]%>">More</a></td>
+        </tr>
+      <%end%>
+    <%end%>
   </tbody>
 </table>

@@ -17,6 +17,7 @@ gem 'activerecord'
 
 # For api calls
 gem 'nokogiri', '~> 1.6.6.2'
+gem 'httparty'
 
 # Needed for development
 gem 'rake'

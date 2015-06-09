@@ -101,12 +101,14 @@ nav {
   display: -webkit-inline-flex;
   display: inline-flex;
   list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .subtab-link {
   text-decoration: none !important;
   color: #b2b2b2;
-  margin-left: 3.5rem;
+  margin-right: 4vw;
 }
 
 /*content*/

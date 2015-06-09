@@ -58,6 +58,10 @@ td {
   margin-left: 5%;
 }
 
+.hidden {
+  display: none;
+}
+
 /*bootstrap mod for responsive tabs*/
 
 @media (max-width: 991px) {

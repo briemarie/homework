@@ -18,7 +18,7 @@
         </div>
         <a class="more-1" data-id="<%=program["ProgramID"]%>" href="#">More</a>
           <!-- Only appears when more is clicked -->
-            <div class="additional-stats" data-id="<%=program["ProgramID"]%>">
+            <div class="additional-stats hidden" data-id="<%=program["ProgramID"]%>">
               <div class="add-ind-stats table-side">
                 <%= erb(:sales, :layout => false) %>
               </div>

@@ -1,16 +1,16 @@
-<%@programs.each do |program| %>
+<% @programs.each do |program| %>
   <% if program["ProgramID"] <= 102 %> <!-- Only the first 3 programs showing -->
     <div class="col-md-3">
       <div class= "stats-box" data-id="<%=program["ProgramID"]%>">
         <button class="pencil"><img src="./assets/pencil_icons.png" alt="edit"></button>
-          <h4 class="margin-shift"><%= program["Name"]%></h4>
+          <h4 class="margin-shift"><%= program["Name"] %></h4>
           <h6 class="margin-shift">Sales By Month</h6>
           <div class="bar-graph">
             <img src="./assets/graph.png" alt="sales graph">
           </div>
           <div class="stats">
             <div class="ind-stats"><h6>Total Monthly Sales</h6></div>
-            <div class="ind-stats"><h6>Current<br><b>$<%= program["TotalMonthlySales"]%></b></h6></div>
+            <div class="ind-stats"><h6>Current<br><b>$<%= program["TotalMonthlySales"] %></b></h6></div>
             <div class="ind-stats">
             <h6>1-Year</h6>
             <img src="./assets/spark_line.png" alt="sales graph">
@@ -20,7 +20,28 @@
           <!-- Only appears when more is clicked -->
             <div class="additional-stats hidden" data-id="<%=program["ProgramID"]%>">
               <div class="add-ind-stats table-side">
-                <%= erb(:sales, :layout => false) %>
+                <table class="price-sales">
+                  <colgroup>
+                    <col width="7rem" />
+                    <col width="3rem" />
+                  </colgroup>
+                  <thead>
+                    <tr>
+                      <th>Price Name</th>
+                      <th>Current</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <% @prices.each do |price| %>
+                      <% if price["ProgramID"] == program["ProgramID"] %>
+                        <tr>
+                          <td class="td-ps"><%= price["Name"]%></td>
+                          <td class="td-ps">$<%= price["Sales"]%></td>
+                        </tr>
+                      <%end%>
+                    <%end%>
+                  </tbody>
+                </table>
               </div>
               <div class="add-ind-stats graph-side">
                 <h6 class="one-year">1-Year</h6>

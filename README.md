@@ -1,34 +1,16 @@
-## Your challenge, should you choose to accept it
-1. Clone this repo (or download the zip archive) to get started.
-2. The page should look like [business_overview.png](business_overview.png) on the page load:
-    
-    <img src="business_overview.png" alt="alt text" width="250"/>
-3. The page should look like [business_overview_expanded.png](business_overview_expanded.png) when the "more" links are clicked:
-    
-    <img src="business_overview_expanded.png" alt="alt text" width="250"/>
-4. The pencil icon should change color on hover.
-5. The "New Program" button should open a form to add a new program. This is where you get some UX/design freedom, but the form should have the following fields:
-    - Program Type (single select)
-        + Count Series
-        + Time Series
-        + Membership
-    - Program Name (input)
-    - Allow online scheduling (boolean)
-    - Default capacity (input)
-    - Tabs this program is on (multi-select)
-        + Classes
-        + Appointments
-        + Workshops
-        + Outside
-        + Inside
-        + Gym
-6. You may use any front-end libraries you wish to complete the task. The Internet is your oyster!
-7. When you're finished, send a link to your GitHub repo (preferred) or a .zip archive to your point-of-contact. (Make sure you include your unminified code!)
+##Welcome to my UrbanYoga clone challenge!
 
-# Bonus Points
-You may choose to make two API calls to populate any or all parts of page. The data returned may not reflect the amounts in the business_overview.png image. Assume that the data from these calls is correct.
-  - Programs (GET: https://api.myjson.com/bins/5bdb3)
-  - Pricing Options (GET: https://api.myjson.com/bins/17oy7)
+I know the instructions said to have the page looking like the image on load, but I wanted to add in some extra functionality, so first click the dashboard tab, then the business overview subtab to see what I have created.
 
-# Help!
-Should you stumble into any questions during your quest, feel free tor reach out to your recruiter or dev contact. There are no stupid questions!
+Some info about what I did:
+
+- I consumed both APIs in the bonus challenge for dynamic data, found here in my Sinatra web app. If you clone the files, run bundle install, and then shotgun, you can find the site at [http://localhost:9393/].
+- If you check out my GitHub branch gh-pages, you will find the code for the hard coded website, which can be viewed at [http://briemarie.me/homework/], which is good for viewing on smartphones. *This is however an incomplete version as I wanted more time to work on the Sinatra version.
+- I coded and tested the website to be cross-browser compatible across Chrome, Safari, Firefox, and IE8 (the chrome version is by far the cleanest looking one, with IE8 having had some minor styling compromises).
+- You may see JavaScript errors appear in the console when clicking links. These are not really errors, but rather a scripting choice of adding `href="javascript: return false;"` so that links would not cause page ups when clicked in IE.
+- You may notice some small sections of CSS that repeat, which was a choice I made in order to keep the code compartmentalized by page sections and functionalities.
+- The only external library I used for styling was Bootstrap, and all of my JavaScript functions are jQuery.
+
+I think that just about covers it. Please let me know if you have any questions or comments. I have enabled issues on the repo as well.
+
+
